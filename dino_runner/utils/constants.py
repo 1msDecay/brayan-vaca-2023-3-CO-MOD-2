@@ -2,9 +2,9 @@ import pygame
 import os
 
 # Global Constants
-TITLE = "Chrome Dino Runner"
-SCREEN_HEIGHT = 600
-SCREEN_WIDTH = 1100
+TITLE = "Chrome Dino Runner - BRAYAN VACA"
+SCREEN_HEIGHT = 500
+SCREEN_WIDTH = 1000
 FPS = 30
 IMG_DIR = os.path.join(os.path.dirname(__file__), "..", "assets")
 
