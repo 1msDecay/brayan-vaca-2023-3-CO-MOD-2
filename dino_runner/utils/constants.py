@@ -3,8 +3,8 @@ import os
 
 # Global Constants
 TITLE = "Chrome Dino Runner - BRAYAN VACA"
-SCREEN_HEIGHT = 500
-SCREEN_WIDTH = 1000
+SCREEN_HEIGHT = 600
+SCREEN_WIDTH = 1100
 FPS = 30
 IMG_DIR = os.path.join(os.path.dirname(__file__), "..", "assets")
 
@@ -12,8 +12,8 @@ IMG_DIR = os.path.join(os.path.dirname(__file__), "..", "assets")
 ICON = pygame.image.load(os.path.join(IMG_DIR, "DinoWallpaper.png"))
 
 RUNNING = [
-    pygame.image.load(os.path.join(IMG_DIR, "Dino/DinoRun1.png")),
-    pygame.image.load(os.path.join(IMG_DIR, "Dino/DinoRun2.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/DinoRun3.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/DinoRun4.png")),
 ]
 
 RUNNING_SHIELD = [
