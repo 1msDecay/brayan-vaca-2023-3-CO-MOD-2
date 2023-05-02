@@ -1,4 +1,5 @@
 import pygame
+import random
 from pygame.sprite import Sprite
 from dino_runner.utils.constants import SCREEN_WIDTH
 
@@ -17,6 +18,7 @@ class Obstacle(Sprite):
 
         if self.rect.x < -self.rect.width:
             obstacles.pop()
+            print("Objeto eliminado")
 
     def draw(self, screen):
         screen.blit(self.image[self.obstacle_type],(self.rect.x, self.rect.y))

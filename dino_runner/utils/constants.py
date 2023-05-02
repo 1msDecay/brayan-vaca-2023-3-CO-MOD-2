@@ -55,7 +55,7 @@ LARGE_CACTUS = [
     pygame.image.load(os.path.join(IMG_DIR, "Cactus/LargeCactus2.png")),
     pygame.image.load(os.path.join(IMG_DIR, "Cactus/LargeCactus3.png")),
 ]
-
+BIRDS =  pygame.image.load(os.path.join(IMG_DIR, "Bird/Bird1.png"))
 BIRD = [
     pygame.image.load(os.path.join(IMG_DIR, "Bird/Bird1.png")),
     pygame.image.load(os.path.join(IMG_DIR, "Bird/Bird2.png")),
@@ -71,4 +71,4 @@ HEART = pygame.image.load(os.path.join(IMG_DIR, 'Other/SmallHeart.png'))
 
 DEFAULT_TYPE = "default"
 
-FONT_STYLE = "default"
+FONT_STYLE = "freesansbold.ttf"

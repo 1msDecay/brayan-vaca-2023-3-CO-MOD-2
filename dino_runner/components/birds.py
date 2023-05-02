@@ -2,9 +2,9 @@ import pygame
 import random
 from dino_runner.components.obstacles.obstacle import Obstacle
 
-class Cactus(Obstacle):
+class Birds(Obstacle):
     def __init__(self,image):
-        self.type = random.randint(0, 2)
+        bird_heights = [260,220,170]
+        self.type = random.randint(0, 1)
         super().__init__(image, self.type)
-        self.rect.y = 325
-
+        self.rect.y = random.choice(bird_heights)

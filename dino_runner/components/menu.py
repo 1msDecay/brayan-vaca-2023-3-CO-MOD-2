@@ -6,8 +6,8 @@ class Menu:
     half_screen_height = SCREEN_HEIGHT // 2
 
     def __init__(self, screen, message):
-        screen.fill(255,255,255)
-        self.font = pygame.font.Font(FONT_STYLE,30)
+        screen.fill((255,255,255))
+        self.font = pygame.font.Font(FONT_STYLE, 30)
         self.text = self.font.render(message, True, (0, 0, 0))
         self.text_rect = self.text.get_rect()
         self.text_rect.x = self.half_screen_width
