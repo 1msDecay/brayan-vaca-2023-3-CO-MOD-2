@@ -55,7 +55,8 @@ LARGE_CACTUS = [
     pygame.image.load(os.path.join(IMG_DIR, "Cactus/LargeCactus2.png")),
     pygame.image.load(os.path.join(IMG_DIR, "Cactus/LargeCactus3.png")),
 ]
-BIRDS =  pygame.image.load(os.path.join(IMG_DIR, "Bird/Bird1.png"))
+BIRD1 =  pygame.image.load(os.path.join(IMG_DIR, "Bird/Bird1.png"))
+BIRD2 = pygame.image.load(os.path.join(IMG_DIR, "Bird/Bird2.png"))
 BIRD = [
     pygame.image.load(os.path.join(IMG_DIR, "Bird/Bird1.png")),
     pygame.image.load(os.path.join(IMG_DIR, "Bird/Bird2.png")),
